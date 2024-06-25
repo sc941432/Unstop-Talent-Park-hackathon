@@ -26,7 +26,7 @@ app.config.from_object(__name__)  # load config from this file , flaskr.py
 
 # Load default config and override config from an environment variable
 app.config.update(dict(
-    SECRET_KEY='development key',
+    SECRET_KEY='Project key',
 ))
 
 app.config['UPLOAD_FOLDER'] = r'C:\Users\sc941\OneDrive\Desktop\Anti Spoofing\Resumes'
