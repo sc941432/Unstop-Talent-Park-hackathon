@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html class="gr__getpapercss_com">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI based Resume screening">
+  <meta name="author" content="Unstop!">
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <title>Unstop</title>
+  <link rel="stylesheet" href="./static/paper.css">
+  <link rel="stylesheet" href="./static/demo.css">
+  <script type="text/javascript" async="" src="./static/analytics.js"></script>
+  <script async="" src="./static/js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-109223301-1');
+  </script>
+  <style>
+    body {
+      background-image: url("./static/example1.png");
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto 0 160px;
+      padding: 20px;
+    }
+    .header, .footer, .content, .sidebar {
+      padding: 20px;
+      margin-bottom: 20px;
+      background-color:#FFBF00;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .header h1, .header h3, .sidebar h3 {
+      margin: 0;
+      color: black;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      color: Black;
+    }
+    .form-group textarea {
+      width: 100%;
+      height: 120px;
+      border: 1px solid black;
+      border-radius: 4px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .table-hover {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    .table-hover th, .table-hover td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+    .table-hover th {
+      background-color: #FFBF00;
+    }
+    .table-hover tr:nth-child(even) {
+      background-color: #FFBF00;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px 0;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      color: #ffffff;
+      background-color: #002F63;
+      border: none;
+      border-radius: 4px;
+    }
+    .btn:hover {
+      background-color: #0C53A6;
+    }
+    
+    .logo {
+      display: inline-block;
+      width: 200px;   /* Adjust to the width of your image */
+      height: 100px;  /* Adjust to the height of your image */
+      background: url('static/example5.png') no-repeat center center;
+      background-size: contain;
+      text-indent: -9999px; /* This hides the text */
+      overflow: hidden;
+    }
+
+    #upload_button input[type=file] {
+      display: none;
+    }
+
+  </style>
+  <script>
+    $(document).ready(function() {
+      $("#resultdiv").hide();
+      $("#formid").submit(function(e) {
+        $("#formdiv").hide();
+        $("#resultdiv").show();
+        resetResult();
+        e.preventDefault();
+      });
+      $("#resetResult").click(function(){
+        $("#formdiv").show();
+        $("#resultdiv").hide();
+      });
+    });
+    function resetResult(){
+      $("#result").text("Processing....");
+    }
+  </script>
+</head>
+<body data-gr-c-s-loaded="true">
+  <div class="container">
+    <div class="header text-center">
+      <h1 class="logo">Unstop</h1>
+      <h3>The automatic resume scrutiny system</h3>
+    </div>
+    <div class="content">
+      
+      <table class="table-hover">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Resume</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in results %}
+          <tr>
+            <td>{{r.rank}}</td>
+            <td><a href="{{url_for('custom_static', filename=r.filename)}}">{{r.filename}}</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <form action="/" method="GET" style="text-align:center">
+        <button type="submit" class="btn">Do it again</button>
+      </form>
+      
+    </div>
+    <div class="sidebar">
+      <h3 class="sidebar-title text-center">Unstop</h3>
+      <div class="text-center">
+        <p>This app is an innovative application designed to assist employers by analyzing resumes and CVs, highlighting candidates who are the best fit for a given position, and filtering out those who are not.</p>
+        <p>It employs advanced recommendation engine techniques, including K-Nearest Neighbors (KNN) and content-based filtering, to perform precise fuzzy matching between job descriptions and multiple resumes.</p>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Made By <i>Sahil Choudhary</i>!</p>
+    </div>
+  </div>
+</body>
+</html>

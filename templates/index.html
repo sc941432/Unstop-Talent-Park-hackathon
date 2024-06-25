@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI based Resume screening">
+  <meta name="author" content="Unstop!">
+  <title>Unstop</title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="stylesheet" href="./static/paper.css">
+  <link rel="stylesheet" href="./static/demo.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-109223301-1');
+  </script>
+  <style>
+    body {
+      background-image: url("./static/example1.png");
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+    .paper {
+      width: 100%;
+      padding: 20px;
+      margin: 20px 0;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    .demo-title {
+      text-align: center;
+    }
+    .demo-title h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .demo-title h3 {
+      font-size: 1.5em;
+      color: #666;
+    }
+    .to-top a {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .sidebar {
+      background-color: #f7f7f7;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    .sidebar-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      display: inline-block;
+      width: 200px;   /* Adjust to the width of your image */
+      height: 100px;  /* Adjust to the height of your image */
+      background: url('static/example5.png') no-repeat center center;
+      background-size: contain;
+      text-indent: -9999px; /* This hides the text */
+      overflow: hidden;
+    }
+
+    .form-control {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .btn {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .col {
+      padding: 0 10px;
+      flex: 1;
+    }
+
+    @media (max-width: 768px) {
+      .col {
+        flex: 100%;
+      }
+    }
+    .sm-12 {
+      flex-basis: 100%;
+    }
+    .md-8 {
+      flex-basis: 66.67%;
+    }
+    .md-4 {
+      flex-basis: 33.33%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        gap: 20px; /* Add this line to create a gap between columns */
+    }
+
+  </style>
+  <script>
+    $(document).ready(function() {
+      $("#resultdiv").hide();
+
+      $("#formid").submit(function(e) {
+        e.preventDefault();
+        $("#formdiv").hide();
+        $("#resultdiv").show();
+        resetResult();
+        console.log("submit");
+        console.log($("#formid").serialize());
+      });
+
+      $("#resetResult").click(function() {
+        $("#formdiv").show();
+        $("#resultdiv").hide();
+      });
+    });
+
+    function resetResult() {
+      $("#result").html("Processing....");
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="row site">
+      <div class="sm-12 md-8 col margin-right">
+        <div class="paper">
+          <!-- Removed login/logout links -->
+
+          <div class="demo-title">
+            <h1 class="logo">Unstop</h1>
+            <h3>The automatic resume scrutiny system</h3>
+          </div>
+          <div class="to-top">
+            <a href="#top" class="paper-btn margin">^</a>
+          </div>
+          <div class="section">
+            <div id="formdiv">
+              <form action="/results" method="POST" style="text-align:center" enctype="multipart/form-data">
+                <p>Select from these</p>
+                <select name="des" class="form-control">
+                  {% for r in results %}
+                    <option value='{{r.name}}'>{{r.name}}</option>
+                  {% endfor %}
+                </select>
+                <button type="submit" class="btn">Screen</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sm-12 md-4 col sidebar margin-left">
+        <div class="paper">
+          <h3 class="sidebar-title">Search resume</h3>
+          <form action="/resultsearch" method="POST">
+            <input type="text" name="Name" class="form-control" placeholder="Enter a string to search">
+            <input type="submit" value="Submit" class="btn">
+          </form>
+        </div>
+        <div class="paper">
+          <h3 class="sidebar-title">Upload Resume</h3>
+          <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" class="form-control">
+            <input type="submit" value="Upload" class="btn">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
