@@ -1,7 +1,7 @@
 # Unstop-Talent-Park-Hackathon
 
 ## Project Overview
-This project, **TalentSync AI**, is designed to transform early talent engagement and hiring by leveraging advanced analytics and artificial intelligence. Built on the Unstop platform, it aims to enhance the matching of candidates with job opportunities that align with their skills, experiences, and career aspirations. The goal is to create a disruptive hiring experience that is both efficient and effective, adapting dynamically to the evolving job market.
+This project, **TalentSync AI**, is designed to transform early talent engagement and hiring by leveraging advanced analytics and artificial intelligence. Built for the Unstop platform, it aims to enhance the matching of candidates with job opportunities that align with their skills, experiences, and career aspirations. The goal is to create a disruptive hiring experience that is both efficient and effective, adapting dynamically to the evolving job market.
 
 ## Features
 - **Data-Driven Matching:** Utilizes machine learning to analyze job descriptions, company information, and candidate profiles for precise matching.
