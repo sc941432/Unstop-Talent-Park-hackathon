@@ -1,0 +1,39 @@
+As a Software Development Engineer at Google, you will be part of a world-class team pushing the boundaries of technology. You will develop high-quality, scalable, and globally impactful products and services. This role demands a high level of creativity and problem-solving capabilities in a fast-paced, collaborative environment.
+
+Key Responsibilities:
+
+Design, develop, test, deploy, maintain, and improve software solutions.
+Manage individual project priorities, deadlines, and deliverables.
+Work collaboratively with other engineers and teams to implement complex projects.
+Optimize applications for maximum speed and scalability.
+Engage in and improve the whole lifecycle of services—from inception and design, through deployment, operation, and refinement.
+Analyze and decompose complex software systems and collaborate with cross-functional teams to influence design for testability.
+Write and maintain high-quality, well-documented code.
+Qualifications:
+
+Bachelor’s degree in Computer Science, related technical field, or equivalent practical experience.
+Experience in software development using a general-purpose programming language (e.g., C/C++, Java, Python, JavaScript, or Go).
+Understanding of algorithms and data structures, as well as their real-world use-cases and performance implications.
+Experience working with two or more from the following: web application development, Unix/Linux environments, mobile application development, distributed and parallel systems, machine learning, information retrieval, natural language processing, networking, developing large software systems.
+Preferred Skills:
+
+Master’s, PhD degree, further education, or equivalent experience in engineering, computer science, or other technical related field.
+Experience with cloud technologies and services.
+Demonstrated ability to share knowledge via formal mentoring, reviewing code, reviewing design documents, providing technical talks, teaching classes, or as a consultant on projects.
+Excellent problem-solving skills and the ability to work independently or as part of a team.
+Strong communication skills and the ability to work effectively in a diverse team environment.
+Benefits:
+
+Competitive salary and bonus program.
+Health, dental, and vision insurance for employees and family members.
+Generous paid time off, plus sick leave and company holidays.
+Retirement savings plans, stock options, and employee stock purchase plans.
+Professional development opportunities and tuition reimbursement.
+Onsite wellness services, fitness centers, and cafeteria options.
+Employee assistance program, which includes counseling sessions.
+Application Process:
+Interested candidates should submit an application through the Google Careers portal, including a resume and a cover letter detailing their experience and why they are a good fit for the role.
+
+About Google:
+Google is not just a technology company, but a wide-ranging organization with roles in technology, business, and beyond. Known for its innovation and market presence, Google aims to build products that organize the world’s information and make it universally accessible and useful while ensuring that its operations are environmentally sustainable.
+

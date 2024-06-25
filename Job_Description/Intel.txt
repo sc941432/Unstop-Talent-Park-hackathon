@@ -1,0 +1,38 @@
+As a Software Development Engineer at Intel, you will play a crucial role in developing software that interfaces with and controls cutting-edge semiconductor hardware. You will be involved in various stages of Intel's hardware product lifecycle, from design, development, and validation to integration and optimization. This role requires a blend of strong technical skills, creativity, and a passion for innovation in technology.
+
+Key Responsibilities:
+
+Develop and optimize software systems that control or interact with hardware.
+Participate in the design, development, and debugging of operating systems, firmware, and embedded applications.
+Collaborate with hardware engineers to define hardware-software interfaces and develop reliable, optimal solutions.
+Implement, verify, and optimize performance-critical code across various platforms and operating systems.
+Contribute to all phases of the software development lifecycle including research, design, analysis, testing, and integration.
+Maintain and document software functionality and guide future software development projects.
+Utilize simulation and emulation tools for software validation and performance tuning.
+Engage in post-production software support and upgrades.
+Qualifications:
+
+Bachelor’s or Master’s degree in Computer Science, Computer Engineering, Electrical Engineering, or a related field.
+Demonstrated experience in software development with proficiency in C, C++, or other high-level programming languages.
+Understanding of computer architecture, operating systems, and device architectures.
+Experience with embedded systems, firmware, or low-level driver development.
+Familiarity with hardware description languages such as VHDL or Verilog is a plus.
+Ability to diagnose issues and solve complex problems with innovative solutions.
+Strong analytical skills and attention to detail.
+Preferred Skills:
+
+Experience with multi-threading, real-time systems, and hardware/software debugging.
+Knowledge of Intel architectures, peripheral interfaces, driver development, and firmware.
+Proficiency in scripting languages such as Python or Perl.
+Excellent communication and teamwork skills.
+Motivation to stay updated with the latest technology and software trends.
+Benefits:
+
+Competitive salary and performance bonuses.
+Comprehensive benefits package including health, dental, and vision insurance.
+Retirement savings plan with company match.
+Professional development and educational assistance.
+Flexible work hours with remote working options.
+Employee discounts and perks.
+Application Process:
+Interested applicants should submit a detailed resume and a cover letter highlighting their qualifications and experiences relevant to the role through Intel’s career portal.

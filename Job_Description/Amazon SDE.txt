@@ -1,0 +1,15 @@
+Position Overview:
+As a Software Development Engineer, you will be a key player within a team that is pivotal in designing, developing, and maintaining scalable and robust systems to support our extensive operations. Your role will involve working alongside other skilled engineers and product managers to develop cutting-edge technologies that enable and enhance our global business operations.
+
+Key Responsibilities:
+In this role, you will be tasked with designing and developing software systems that are essential to the scale and functionality of our business operations worldwide. Your responsibilities will include writing clean, maintainable code and conducting peer code reviews. You will also explore and prototype new technologies and assess their technical feasibility for integration into our operations. As an SDE, you will operate within a hybrid engineering model, possessing the capability to handle the full spectrum of software development tasks—designing, writing, testing, deploying, and maintaining applications.
+
+A significant part of your role will involve utilizing a range of Amazon Web Services (AWS) technologies, such as EC2, RDS, SWF, DynamoDB, and ElasticCache. These tools are crucial for developing solutions that are not only secure and robust but also scalable to meet the needs of our operations. Additionally, you will engage directly with customers and internal clients to understand their requirements and craft effective technical solutions that align with their needs.
+
+Mentoring junior software development engineers will also be an integral part of your duties, helping to cultivate the next generation of engineers and enhancing the overall skill set of our teams.
+
+Qualifications:
+Candidates should hold a Bachelor’s or Master’s degree in Computer Science, Computer Engineering, or a related technical discipline. We expect a robust background in software development, evidenced by years of professional experience. Proficiency in modern programming languages such as Java, C++, or Python is required, along with a solid understanding of computer science fundamentals, including object-oriented design, data structures, algorithm design, problem-solving, and complexity analysis. Experience in building complex software systems that have been successfully delivered to customers is essential.
+
+Preferred Skills:
+We value experience with distributed computing and managing enterprise-wide systems. Candidates should have hands-on expertise across a diverse range of technologies, from front-end user interfaces to back-end systems. Familiarity with professional software engineering practices and the full software development lifecycle—including coding standards, code reviews, source control management, build processes, testing, and operations—is preferred. The ability to manage multiple competing priorities in a fast-paced environment and excellent verbal and written communication skills are crucial.

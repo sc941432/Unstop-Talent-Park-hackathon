@@ -1,0 +1,18 @@
+The Adobe Member of Technical Staff (MTS) is instrumental in pioneering and advancing software solutions within the Adobe ecosystem, focusing on innovation and robust design across multiple platforms and technologies. The role entails the design and development of complex software systems, ensuring integration with Adobe’s cloud services, and contributing to the entire software development lifecycle from conceptualization to deployment.
+
+Key Responsibilities:
+The MTS will architect and implement scalable, high-performance software solutions that enhance Adobe’s digital experience platforms. This includes collaborating closely with cross-functional teams to translate business needs into technical specifications. The incumbent will manage the development process, ensuring adherence to coding and quality standards, and perform rigorous testing and debugging. The MTS is also responsible for maintaining and upgrading existing software to improve efficiency and functionality.
+
+Additionally, the role involves working with external service providers to integrate third-party services seamlessly into Adobe’s products. The MTS will aid in setting up new technology infrastructures for upcoming projects and ensure that they are operational ahead of project launches. The role requires managing ongoing technical audits, compliance, and performance metrics analysis, directly liaising with external audit firms and tech consultants across diverse projects.
+
+Operational and Strategic Duties:
+The MTS will develop and implement operational procedures and controls that are aligned with local standards and consistent with Adobe’s global policies. Leveraging past experience and relationships, the MTS will play a crucial role in shaping Adobe’s technical strategies in the region, ensuring that all systems and frameworks are scalable and adaptable to Adobe’s evolving business needs. The role includes maintaining rigorous documentation and records of all systems and architectures deployed.
+
+Interpersonal and Administrative Responsibilities:
+This position requires maintaining robust relationships with key external tech advisors and service providers, leading regular strategic meetings to assess progress and compliance with project goals. The MTS will also manage and resolve any technical issues, reporting findings and recommendations to senior management for continual improvement of practices and processes. Additionally, the role includes ensuring all inter-system compatibilities and data integrations are flawlessly executed and periodically reviewed.
+
+Compliance and Enhancement:
+The MTS will oversee all regulatory compliance requirements for software development, including submissions to relevant authorities. A continuous evaluation of financial and operational ratios such as system performance and cost-efficiency metrics is essential. The role also involves identifying and implementing system and process improvements to enhance functionality and user experience across Adobe’s products.
+
+Additional Responsibilities:
+The role may involve other duties as required from time to time, including participating in industry conferences, leading workshops, and contributing to Adobe’s thought leadership in technology.

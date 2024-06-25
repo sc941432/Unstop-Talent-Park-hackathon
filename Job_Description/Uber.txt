@@ -1,0 +1,40 @@
+As a Software Development Engineer at Uber, you will be instrumental in crafting, developing, and deploying scalable and robust applications that support Uber's dynamic and fast-paced environment. You will work on solving unique challenges that come with large-scale systems and mobile platforms that impact millions of users and operators globally.
+
+Key Responsibilities:
+
+Design and implement scalable systems and infrastructures measured in terms of capacity, response time, reliability, and data integrity.
+Develop robust, fault-tolerant software that can reliably support Uber's operational needs.
+Enhance and maintain APIs and services, ensuring high performance, responsiveness, and seamless integration across various systems.
+Engage with engineering and product teams to define system requirements, modify existing software to correct errors, adapt to new hardware, and improve performance.
+Conduct code reviews, write unit tests, and provide accurate documentation to ensure code quality and maintainability.
+Monitor the performance of live systems and continuously optimize them.
+Collaborate across teams to facilitate the efficient delivery of large-scale projects and resolve operational issues through innovative solutions.
+Stay abreast of the latest technology trends and best practices in software development.
+Qualifications:
+
+Bachelor's or Master’s degree in Computer Science, Engineering, or a related field.
+Proven software development experience with a strong command of object-oriented principles.
+Experience programming in at least one of the following languages: Python, Java, C++, Go, or similar.
+Strong knowledge of data structures, algorithms, and software design.
+Experience with distributed systems, microservices architecture, and container technologies (such as Docker, Kubernetes).
+Familiarity with SQL and NoSQL databases, including their performance tuning.
+Preferred Skills:
+
+Experience with real-time technology problems.
+Experience developing complex software systems scaling to millions of users with production quality deployment, monitoring, and reliability.
+Familiarity with mobile platform programming environments (Android/iOS).
+Excellent problem-solving, analytical skills, and technical troubleshooting skills.
+Ability to work in a highly collaborative environment with a focus on continuous improvement.
+Benefits:
+
+Competitive salary and equity compensation.
+Comprehensive health coverage (medical, dental, vision).
+401(k) plan, gym reimbursement, paid company holidays.
+Full support for remote work arrangements.
+Opportunities for professional development and career growth.
+Application Process:
+Candidates are invited to apply through Uber’s career portal by submitting a detailed resume and a cover letter that outlines their suitability for the role based on their experience and skills.
+
+About Uber:
+Uber is a technology company that is transforming the way the world thinks about transportation. We are building technology people use every day. Whether it's heading home from work, getting a meal delivered from a favorite restaurant, or a way to earn extra income, Uber is becoming part of the fabric of daily life.
+
