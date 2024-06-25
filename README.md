@@ -14,6 +14,7 @@ This project, **TalentSync AI**, is designed to transform early talent engagemen
 
 -**Here are some snapshots of our project in action:**
 
-![Screenshot 2](/Screenshot_25-6-2024_143347_192.168.174.221.jpeg)
 ![Screenshot 3](/Screenshot_25-6-2024_143420_192.168.174.221.jpeg)
+![Screenshot 2](/Screenshot_25-6-2024_143347_192.168.174.221.jpeg)
+
 
