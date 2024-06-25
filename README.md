@@ -9,7 +9,8 @@ This project, **TalentSync AI**, is designed to transform early talent engagemen
 - **Intuitive User Interface:** Offers a seamless user experience for job seekers and employers, with real-time feedback and recommendations.
 
 ## Screenshots
-Here are some snapshots of our project in action:
+-**Here are some snapshots of our project in action:**
+
 ![Screenshot 1](/Screenshot%202024-06-25%20143611.png)
 ![Screenshot 2](/Screenshot_25-6-2024_143347_192.168.174.221.jpeg)
 ![Screenshot 3](/Screenshot_25-6-2024_143420_192.168.174.221.jpeg)
